@@ -3,23 +3,32 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Two | 一个正直的男人</title>
+  <title>JS第一次小结 | 一个正直的男人</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <meta name="keywords" content="黎旭,黎旭's 技术blog" />
   
-  <meta name="description" content="mbmbvnbnbvnbn使用 四个缩进空格 表示代码块。  示例： 这是一个代码块，此行左侧有四个不可见的空格。 ####连续两个空格可以取消引用html 这个标记好难打这是一段文本。1234567891011121314151617/*** nth element in the fibonacci series.* @param n &amp;gt;= 0* @return the nth elem">
-<meta name="keywords" content="2017年10月">
+  <meta name="description" content="1. JS基本预算操作 2. JS使用中括号索引查找字符串 3. JS使用索引操作多维数组 4. JS队列 5. JS逻辑运算 6. JS循环语句 7. JS适用对象查找 8. JS获取JSON数组值">
+<meta name="keywords" content="2017年10月,JS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Two">
-<meta property="og:url" content="http://www.lixu.tech/2017/10/03/two/index.html">
+<meta property="og:title" content="JS第一次小结">
+<meta property="og:url" content="http://www.lixu.tech/2017/10/04/three/index.html">
 <meta property="og:site_name" content="一个正直的男人">
-<meta property="og:description" content="mbmbvnbnbvnbn使用 四个缩进空格 表示代码块。  示例： 这是一个代码块，此行左侧有四个不可见的空格。 ####连续两个空格可以取消引用html 这个标记好难打这是一段文本。1234567891011121314151617/*** nth element in the fibonacci series.* @param n &amp;gt;= 0* @return the nth elem">
+<meta property="og:description" content="1. JS基本预算操作 2. JS使用中括号索引查找字符串 3. JS使用索引操作多维数组 4. JS队列 5. JS逻辑运算 6. JS循环语句 7. JS适用对象查找 8. JS获取JSON数组值">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-10-04T07:13:26.796Z">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E5%259F%25BA%25E6%259C%25AC%25E9%25A2%2584%25E7%25AE%2597.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E4%25BD%25BF%25E7%2594%25A8%25E4%25B8%25AD%25E6%258B%25AC%25E5%258F%25B7%25E7%25B4%25A2%25E5%25BC%2595%25E6%259F%25A5%25E6%2589%25BE%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E4%25BD%25BF%25E7%2594%25A8%25E7%25B4%25A2%25E5%25BC%2595%25E6%2593%258D%25E4%25BD%259C%25E5%25A4%259A%25E7%25BB%25B4%25E6%2595%25B0%25E7%25BB%2584.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JavaScript%25E9%2598%259F%25E5%2588%2597.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E9%2580%25BB%25E8%25BE%2591%25E8%25BF%2590%25E7%25AE%2597.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E5%25BE%25AA%25E7%258E%25AF%25E8%25AF%25AD%25E5%258F%25A5.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E4%25BD%25BF%25E7%2594%25A8%25E5%25AF%25B9%25E8%25B1%25A1%25E6%259F%25A5%25E6%2589%25BE.PNG">
+<meta property="og:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E8%258E%25B7%25E5%258F%2596JSON%25E6%2595%25B0%25E7%25BB%2584%25E5%2580%25BC.PNG">
+<meta property="og:updated_time" content="2017-10-04T14:17:03.652Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Two">
-<meta name="twitter:description" content="mbmbvnbnbvnbn使用 四个缩进空格 表示代码块。  示例： 这是一个代码块，此行左侧有四个不可见的空格。 ####连续两个空格可以取消引用html 这个标记好难打这是一段文本。1234567891011121314151617/*** nth element in the fibonacci series.* @param n &amp;gt;= 0* @return the nth elem">
+<meta name="twitter:title" content="JS第一次小结">
+<meta name="twitter:description" content="1. JS基本预算操作 2. JS使用中括号索引查找字符串 3. JS使用索引操作多维数组 4. JS队列 5. JS逻辑运算 6. JS循环语句 7. JS适用对象查找 8. JS获取JSON数组值">
+<meta name="twitter:image" content="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E5%259F%25BA%25E6%259C%25AC%25E9%25A2%2584%25E7%25AE%2597.PNG">
   
   
     <link rel="icon" href="/happy.ico">
@@ -107,20 +116,20 @@
     </div>
 </header>
       <div class="outer">
-        <section id="main" class="body-wrap"><article id="post-two" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main" class="body-wrap"><article id="post-three" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="post-title" itemprop="name">
-      Two
+      JS第一次小结
     </h1>
     <div class="post-title-bar">
       <ul>
           
         <li>
-          <i class="fa fa-calendar"></i>  2017-10-03
+          <i class="fa fa-calendar"></i>  2017-10-04
         </li>
         <li>
           <i class="fa fa-eye"></i>
@@ -136,17 +145,19 @@
     <div class="article-entry post-content" itemprop="articleBody">
       
             
-            <blockquote>
-<p>mbmbvnbn<br><strong>bvnbn</strong><br>使用 四个缩进空格 表示代码块。</p>
-</blockquote>
-<p>示例：</p>
-<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
-</code></pre><p>####连续两个空格可以取消引用<br><code>html</code> <strong>这个标记好难打</strong><br><del>这是一段文本。</del><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"><span class="comment">* nth element in the fibonacci series.</span></div><div class="line"><span class="comment">* @param n &gt;= 0</span></div><div class="line"><span class="comment">* @return the nth element, &gt;= 0.</span></div><div class="line"><span class="comment">*/</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</div><div class="line">  <span class="keyword">var</span> tmp;</div><div class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) &#123;</div><div class="line">    tmp = a;</div><div class="line">    a += b;</div><div class="line">    b = tmp;</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">return</span> a;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</div></pre></td></tr></table></figure></p>
+            <h3 id="1-JS基本预算操作"><a href="#1-JS基本预算操作" class="headerlink" title="1. JS基本预算操作"></a>1. <code>JS基本预算操作</code></h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E5%259F%25BA%25E6%259C%25AC%25E9%25A2%2584%25E7%25AE%2597.PNG" alt="一张图片"></p>
+<h3 id="2-JS使用中括号索引查找字符串"><a href="#2-JS使用中括号索引查找字符串" class="headerlink" title="2. JS使用中括号索引查找字符串"></a>2. <code>JS使用中括号索引查找字符串</code></h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E4%25BD%25BF%25E7%2594%25A8%25E4%25B8%25AD%25E6%258B%25AC%25E5%258F%25B7%25E7%25B4%25A2%25E5%25BC%2595%25E6%259F%25A5%25E6%2589%25BE%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2.PNG" alt="一张图片"></p>
+<h3 id="3-JS使用索引操作多维数组"><a href="#3-JS使用索引操作多维数组" class="headerlink" title="3. JS使用索引操作多维数组"></a>3. <code>JS使用索引操作多维数组</code></h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E4%25BD%25BF%25E7%2594%25A8%25E7%25B4%25A2%25E5%25BC%2595%25E6%2593%258D%25E4%25BD%259C%25E5%25A4%259A%25E7%25BB%25B4%25E6%2595%25B0%25E7%25BB%2584.PNG" alt="一张图片"></p>
+<h3 id="4-JS队列"><a href="#4-JS队列" class="headerlink" title="4. JS队列"></a>4. <code>JS队列</code></h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JavaScript%25E9%2598%259F%25E5%2588%2597.PNG" alt="一张图片"></p>
+<h3 id="5-JS逻辑运算"><a href="#5-JS逻辑运算" class="headerlink" title="5. JS逻辑运算"></a>5. JS逻辑运算</h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E9%2580%25BB%25E8%25BE%2591%25E8%25BF%2590%25E7%25AE%2597.PNG" alt="一张图片"></p>
+<h3 id="6-JS循环语句"><a href="#6-JS循环语句" class="headerlink" title="6. JS循环语句"></a>6. JS循环语句</h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E5%25BE%25AA%25E7%258E%25AF%25E8%25AF%25AD%25E5%258F%25A5.PNG" alt="一张图片"></p>
+<h3 id="7-JS适用对象查找"><a href="#7-JS适用对象查找" class="headerlink" title="7. JS适用对象查找"></a>7. JS适用对象查找</h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E4%25BD%25BF%25E7%2594%25A8%25E5%25AF%25B9%25E8%25B1%25A1%25E6%259F%25A5%25E6%2589%25BE.PNG" alt="一张图片"></p>
+<h3 id="8-JS获取JSON数组值"><a href="#8-JS获取JSON数组值" class="headerlink" title="8. JS获取JSON数组值"></a>8. JS获取JSON数组值</h3><p><img src="https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/JS%25E8%258E%25B7%25E5%258F%2596JSON%25E6%2595%25B0%25E7%25BB%2584%25E5%2580%25BC.PNG" alt="一张图片"></p>
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2017年10月04日 15:13</p>
-        <p>原始链接： <a class="post-url" href="/2017/10/03/two/" title="Two">http://www.lixu.tech/2017/10/03/two/</a></p>
+        <p>最后更新： 2017年10月04日 22:17</p>
+        <p>原始链接： <a class="post-url" href="/2017/10/04/three/" title="JS第一次小结">http://www.lixu.tech/2017/10/04/three/</a></p>
         <footer>
             <a href="http://www.lixu.tech">
                 <img src="/images/touxiang2.PNG" alt="黎旭">
@@ -168,7 +179,7 @@
     <div class="post-share-list" id="share-list">
         <ul class="share-icons">
           <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.lixu.tech/2017/10/03/two/&title=《Two》 — 一个正直的男人&pic=http://www.lixu.techimages/touxiang2.PNG" data-title="微博">
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.lixu.tech/2017/10/04/three/&title=《JS第一次小结》 — 一个正直的男人&pic=https://coding.net/u/lixuzzz/p/study/git/raw/master/LixuProject/js.jpg" data-title="微博">
               <i class="fa fa-weibo"></i>
             </a>
           </li>
@@ -178,22 +189,22 @@
             </a>
           </li>
           <li>
-            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.lixu.tech/2017/10/03/two/&title=《Two》 — 一个正直的男人&source=马上毕业的帅比！！！" data-title="QQ">
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.lixu.tech/2017/10/04/three/&title=《JS第一次小结》 — 一个正直的男人&source=马上毕业的帅比！！！" data-title="QQ">
               <i class="fa fa-qq"></i>
             </a>
           </li>
           <li>
-            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.lixu.tech/2017/10/03/two/" data-title="Facebook">
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.lixu.tech/2017/10/04/three/" data-title="Facebook">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Two》 — 一个正直的男人&url=http://www.lixu.tech/2017/10/03/two/&via=http://www.lixu.tech" data-title="Twitter">
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《JS第一次小结》 — 一个正直的男人&url=http://www.lixu.tech/2017/10/04/three/&via=http://www.lixu.tech" data-title="Twitter">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.lixu.tech/2017/10/03/two/" data-title="Google+">
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.lixu.tech/2017/10/04/three/" data-title="Google+">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -203,7 +214,7 @@
 <div class="post-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;" id="wxShare-close">×</a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://www.lixu.tech/2017/10/03/two/" alt="微信分享二维码">
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://www.lixu.tech/2017/10/04/three/" alt="微信分享二维码">
 </div>
 
 <div class="mask"></div>
@@ -217,6 +228,8 @@
       
     <a href="/tags/2017年10月/" class="color4">2017年10月</a>
       
+    <a href="/tags/JS/" class="color3">JS</a>
+      
   </li>
 
         </ul>
@@ -226,22 +239,18 @@
 </article>
 
 
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-JS基本预算操作"><span class="post-toc-text">1. JS基本预算操作</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-JS使用中括号索引查找字符串"><span class="post-toc-text">2. JS使用中括号索引查找字符串</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-JS使用索引操作多维数组"><span class="post-toc-text">3. JS使用索引操作多维数组</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-JS队列"><span class="post-toc-text">4. JS队列</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-JS逻辑运算"><span class="post-toc-text">5. JS逻辑运算</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-JS循环语句"><span class="post-toc-text">6. JS循环语句</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#7-JS适用对象查找"><span class="post-toc-text">7. JS适用对象查找</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#8-JS获取JSON数组值"><span class="post-toc-text">8. JS获取JSON数组值</span></a></li></ol>
+        </nav>
+    </aside>
+    
 
 <nav id="article-nav">
   
-    <a href="/2017/10/04/three/" id="article-nav-newer" class="article-nav-link-wrap">
-
-      <span class="article-nav-title">
-        <i class="fa fa-hand-o-left" aria-hidden="true"></i>
-        
-          JS第一次小结
-        
-      </span>
-    </a>
   
-  
-    <a href="/2017/10/02/hi/" id="article-nav-older" class="article-nav-link-wrap">
-      <span class="article-nav-title">弄了一天了！！！</span>
+    <a href="/2017/10/03/two/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">Two</span>
       <i class="fa fa-hand-o-right" aria-hidden="true"></i>
     </a>
   
@@ -250,7 +259,7 @@
 
 
     
-        <div id="SOHUCS" sid="two" ></div>
+        <div id="SOHUCS" sid="three" ></div>
 <script type="text/javascript">
     (function(){
         var appid = 'cysWNoXlJ';
